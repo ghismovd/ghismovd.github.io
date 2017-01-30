@@ -6,7 +6,6 @@
 	width: 100%;
 	height: 694px;
 	color: white;
-	background:red;
 	border-top: 0.01px solid ;
 	background: url(images/cover.jpg);
 	background-size: cover;
@@ -40,7 +39,6 @@ a {
 	padding: 10px;
 	font-size: 18px;
 	margin: auto;
-	
 	background: white;
 	color: black;
 	border: 3px solid black;
@@ -58,22 +56,27 @@ nav{
 	height: 41px;
 	background-color: #252e30;
 }
-ul {
+.menu {
 	list-style-type: none;
-	margin-left: 650px ;
-}
-.nav {
-	display: block;
-	float: left;
-	height: 10px;
+	float: right;
 	background-color: #252e30;
-	padding-right: 50px;
+	padding-right: ;
+}
+
+li {
+	background-color: #252e30;
+	float: left;
+	
+}
+li a{
+	height: 10px;
 	margin-top: 1px;
+	background-color: #252e30;
 	border: none;
 	color: white;
 	font-family: arial;
 }
-ul a.nav:hover{
+li > a:hover{
 	color: green;
 
 }
@@ -84,64 +87,49 @@ ul a.nav:hover{
 	color: #fff;
 	background: #19c589;
 	text-align: center;
-	padding: 12px 0;
+	padding: 11px 0;
 	display: none;
 }
 input[type=checkbox]{
     display: none;
 }
-input[type=checkbox]:checked ~ ul a.nav{
+input[type=checkbox]:checked ~.menu{
     display: block;
 }
-
 
 .logo{
 	font-family: sans-serif;
 	display: inline;
 	float: left;
 	margin-top: 6px;
-	margin-left: 220px;
+	margin-left: 10%;
 	color: white;
 }
 
 #container {
 	width: 100%;
-	height: 300px;
-	background-color: white;
+	height: 200px;
 }
 
 .articles{
-	margin-left: 225px;
-}
+	margin-left: 12%;
+	width: 74%;
+	height: 100%;
+	background-color: white;
+ }
 
-.articles > article{
-	width: 23%;
+.articles > article {
+	width: 28%;
+	height: 40%;
 	float: left;
-	margin-top: 62px;
+	margin-top: 22px;
 	margin-right: 30px;
 	padding-top: 20px;
 	padding-left: 20px;
 	padding-bottom: 20px;	
 	font-size: 1.2em;
+	background-color: white;
 }
 	
-.container1{
-	width: 100%;
-	height: 755px;
-	background-color: #f2f2f1;;
-}
 
-.profile{
-	width: 30%;
-	background-color: #f2f2f1;
-	float: left;
-}
-section > article{
-	background-color: #f8f8f8;
-	width: 45%;
-	height: 268px;
-	margin-left: 100px;
-	float: left;
-	margin-top: 97px;
-}
 

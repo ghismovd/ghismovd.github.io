@@ -1,3 +1,56 @@
+
+@media screen and (max-width: 1280px){
+	.logo{
+		margin-left: 2%;
+	}
+
+	.articles{
+		width: 98%;
+		margin-left: 18px;
+		margin-right: 0;
+		height: 100%
+	}
+
+	article.a1{
+		width: 25%;
+	}
+
+	article.a2{
+		width: 30%;
+		
+	}
+	article.a3{
+		width: 25%;
+	}
+}
+
+@media screen and (max-width: 1188px){
+	.articles{
+		width: 98%;
+		margin-left: 18px;
+		margin-right: 0;
+	}
+
+	article.a1{
+		width: 25%;
+	}
+
+	article.a2{
+		width: 30%;
+
+		
+	}
+	article.a3{
+		width: 25%;
+	}
+}
+
+@media screen and (max-width: 1035px){
+	.logo{
+		display: none;
+	}
+
+
 @media screen and (max-width: 900px){
 	h1 {
 	text-align: center;
@@ -8,7 +61,47 @@
 	letter-spacing: 0.06em;
 	}
 }
+@media screen and (max-width: 857px){
 
+	.articles{
+		width: 100%;
+		margin: 0;
+	}
+
+	article.a1{
+		width: 40%;
+	}
+
+	article.a2{
+		width: 40%;
+		
+	}
+	article.a3{
+		width: 100%;
+	}
+
+	ul{
+		width: 100%;
+	}
+	
+	 li a{
+		width: auto;
+		padding-right: 2%;
+		}
+}
+
+@media screen and (max-width: 675px){
+	.show-menu {
+		display:none;
+	}
+	.menu>a{
+		display: none;
+		float: right;
+		font-size: 10px;
+		height: 40px;
+		width: 100%;
+	}
+	
 @media screen and (max-width: 600px){
 
 	h1 {
@@ -22,57 +115,62 @@
 }
 
 
-@media screen and (max-width: 840px){
 
-.logo{
-display: none;
-}
- /*Display 'show menu' link*/
-	.show-menu {
-		display:none;
-	}
-	
-
-ul a.nav{
-	position: relative;
-	right: 550px;
-	width: 400px;
-}
-}
-
-@media screen and (max-width: 675px){
-	.show-menu {
-		display:block;
-	}
-	ul a.nav{
-		display: none;
-		right: 590px;
-
-	}
 
 @media screen and (max-width: 575px){
 	.show-menu {
 		display:block;
-	}
-	ul a.nav{
-		display: none;
-		right: 625px;
-
 	}
 	#header{
 		height: 544px;
 
 
 	}
-@media screen and (max-width: 500px){
+}
+
+
+
+@media screen and (max-width: 517px){
 	.show-menu {
 		display:block;
 		
 	}
-	ul a.nav{
-		display:none;
-		right: 649px;
-		width: 290px;
-
-
+	article.a1{
+		width: auto;
 	}
+	article.a2{
+		width: auto;
+	}
+	article.a3{
+		width: auto;
+		clear: both;
+	}
+
+@media screen and (max-width: 432px){
+	article.a1{
+		width: auto;
+	}
+	article.a2{
+		width: auto;
+	}
+	article.a3{
+		width: auto;
+		clear: both;
+	}
+}
+
+@media screen and (max-width: 432px){
+
+.show-menu {
+		display:block;
+	}
+	.menu{
+		display: none;
+		float: right;
+		height: 35px;
+	}
+
+	a{
+		font-size: 16px;
+	}
+}	
