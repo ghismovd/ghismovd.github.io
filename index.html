@@ -18,41 +18,35 @@ Project Files: complete
         <link 
             href='http://fonts.googleapis.com/css?family=Average|Belgrano' 
             rel='stylesheet' type='text/css'>
-        <!--[if ! lte IE 6]><!-->
-        <link rel="stylesheet" href="css.css" type="text/css" /><![endif]-->
+        <!--<label for="show-menu" class="show-menu">Show Menu</label>
+    <input type="checkbox" id="show-menu" role="button"> ><!-->
+        <link rel="stylesheet" href="css.css" type="text/css" />
        
-        <link rel="stylesheet" href="css/responsive.css" type="text/css" />
-        <!--[if lt IE 9]><link rel="stylesheet" 
-        href="css/styles-ie.css" type="text/css" /><![endif]-->
-        <!--[if lte IE 6]><link rel="stylesheet" 
-        href="http://universal-ie6-css.googlecode.com/files/ie6.1.1.css" 
-        media="screen, projection"><![endif]-->
-       	 <!--[if lt IE 8]><link rel="stylesheet" 
-        href="css/styles-ie7.css" type="text/css" /><![endif]-->
-        <!--[if lt IE 9]>
-        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js">
-        </script>
-        <![endif]-->
+        <link rel="stylesheet" href="css/normalize.css" type="text/css" />
+        
 </head>
 <body>
- <div id="header">
+<div id="header">
      <h1><span>Front-end Web Developer</span></h1>
         <div class="l">
             <a href="#" id="a"> <span>Learn more</span></a> 
         </div>
  </div>
 <nav>
-    <div class="logo">
-       <h2><span>Vlasie Dragos</span>  </h2>
-    </div>
-    <label for="show-menu" class="show-menu">Show Menu</label>
+    <div class="container">
+       <h2 class="name"> <a href="#">Vlasie Dragos</a></h2>
+
+         <label for="show-menu" class="show-menu">Show Menu</label>
     <input type="checkbox" id="show-menu" role="button">
-    <ul class="menu" >
+
+
+    <ul class="main-nav" >
         <li><a href=".logo">Home</a></li>
         <li><a href=".a1">About me</a></li>
         <li><a href="#">Projects</a></li>
         <li><a href="#">Contact me</a></li>
     </ul>
+    </div>
 </nav>
 <div id="container">
   <div class="articles">
@@ -73,10 +67,4 @@ Project Files: complete
     </article>
   </div>  
 </div>
-
-
-
-
-
-
 </body>
