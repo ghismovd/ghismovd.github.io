@@ -73,7 +73,7 @@ input[type=checkbox]{
     display: none;
 }
 
-input[type=checkb	ox]:checked ~ .main-nav{
+input[type=checkbox]:checked ~ .main-nav{
     display: block;
 }
 
