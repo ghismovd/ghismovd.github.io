@@ -1,3 +1,2 @@
-for (var x = 4; x = 156; x +=1 ){
-            console.log(x); 
-}
+const myHeader = document.getElementById("span");
+myHeader.addEventListener("click",()=> {myHeader.style.color = 'red';} );
